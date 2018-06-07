@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+#root {
+    height: 100%;
+}
+.app-container {
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+.content {
+    width: 50%;
+    font-size: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.input-box {
+    background-color: #282c34;
+    color: #61dafb;
+}
+.output-box {
+    background-color: #61dafb;
+    color: #282c34;
+}
+.input-box input {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 10px 5px;
+    outline: none;
+    background-color: transparent;
+    color: #61dafb;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
